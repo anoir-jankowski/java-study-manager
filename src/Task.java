@@ -1,10 +1,10 @@
 public class Task {
     private final String title;
     Course course;
-    double deadline;
+    String deadline;
     int priority;
 
-    Task(String title, Course course, double deadline, int priority){
+    Task(String title, Course course, String deadline, int priority){
        this.title = title;
        this.course = course;
        this.deadline = deadline;

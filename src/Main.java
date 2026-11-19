@@ -4,7 +4,7 @@ public class Main {
 
         Course mathe = new Course("Mathe");
 
-        Task one = new Task("Aufgabe1", mathe, 20.12,3);
+        Task one = new Task("Aufgabe1", mathe, "20.11.2026",3);
 
         System.out.println(mathe.getName());
 
